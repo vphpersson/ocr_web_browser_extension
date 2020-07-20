@@ -1,0 +1,30 @@
+{
+  "name": "OCR Web",
+  "version": "0.9",
+  "applications": {
+    "gecko": {
+      "id": "vph@dog.com",
+      "strict_min_version": "50.0"
+    }
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "nativeMessaging",
+    "tabs"
+  ],
+
+  "background": {
+    "page": "/components/background/background.html"
+  },
+
+  "browser_action": {
+    "default_title": "Search for screenshots.",
+    "default_popup": "/components/browser_action/browser_action.html"
+  },
+
+  "description": "",
+  "default_locale": "en",
+  "manifest_version": 2
+}
+

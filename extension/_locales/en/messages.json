@@ -1,0 +1,11 @@
+{
+  "unsupported_message_type": {
+    "message": "Unsupported message type: $MESSAGE_TYPE$.",
+    "description": "Error message that is used when specifying an unsupported message type.",
+    "placeholders": {
+      "message_type" : {
+        "content" : "$1"
+      }
+    }
+  }
+}

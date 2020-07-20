@@ -1,0 +1,33 @@
+body {
+    background-color: #333333;
+    margin: 5%;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+}
+
+.entry__screenshot {
+    object-fit: contain;
+    max-height: 100%;
+    width: 100%;
+}
+
+.entry__text_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry__title, .entry__url, .entry__datetime {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entry__url {
+    color: lightblue;
+}
